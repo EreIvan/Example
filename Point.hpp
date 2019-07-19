@@ -2,7 +2,6 @@
 #define POINT_HPP
 #include <iostream>
 
-
 class Point {
 public:
 double r_, p_;
@@ -18,7 +17,6 @@ Point operator +(Point b);
 
 };
 
-
-     double distance(Point a, Point b);
+ double distance(Point a, Point b);
 
 #endif POINT_HPP
